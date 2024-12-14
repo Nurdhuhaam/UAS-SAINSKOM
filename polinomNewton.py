@@ -1,13 +1,11 @@
 def beda_pembeda(x, y):
     n = len(x)
-    # Inisialisasi tabel beda pembeda dengan y awal
     tabel = [y.copy()]
     
-    # Hitung beda pembeda
+    
     for i in range(1, n):
         baris_baru = []
         for j in range(n - i):
-            # Hitung beda pembeda berdasarkan baris sebelumnya
             beda = (tabel[i-1][j+1] - tabel[i-1][j]) / (x[j+i] - x[j])
             baris_baru.append(beda)
         tabel.append(baris_baru)
