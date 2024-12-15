@@ -63,7 +63,7 @@ print("Masukkan persamaan linear pertama (misalnya 2x + 3y + 5z = 6):")
 eq1 = input()
 print("Masukkan persamaan linear kedua (misalnya 3x + 2y + 4z = 8):")
 eq2 = input()
-print("Masukkan persamaan linear ketiga (misalnya x + y + z = 2):")
+print("Masukkan persamaan linear ketiga (misalnya x + y + z = 2):")                                                                
 eq3 = input()
 
 # Parsing persamaan menjadi koefisien
